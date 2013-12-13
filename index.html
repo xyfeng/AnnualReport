@@ -3,8 +3,51 @@
   <head>
     <title>Frog Annual Report</title>
 
-    <link rel="stylesheet" href="/stylesheets/style.css" />
-    <link rel="shortcut icon" href="/images/favicon.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lekton|Open+Sans|Open+Sans+Condensed:300" />
+    <link rel="stylesheet" href="/annualreport.css" />
+    <link rel="shortcut icon" href="/favicon.icn" />
+
+    <style type="text/css">
+      body{
+        background-color:#f2eee9;
+        color: #333;
+        cursor: default;
+        width: 600px;
+        margin: 0 auto 0 auto;
+      }
+      h1{
+        font-family: 'Lekton', sans-serif;
+        font-size: 12px;
+        line-height: 14px;
+        border-bottom: 1px solid #aaa;
+        width: 120px;
+        margin: 60px auto 60px auto;
+        text-align: center;
+      }
+      h3, a{
+        font-family: sans-serif;
+        font-size: 15px;
+        line-height: 16px;
+        margin: 0 auto 0 auto;
+        text-align: center;
+      }
+      span.body{
+        padding: 0 25px 0 0;
+      }
+      span.foot{
+        padding: 0 30px 0 0;
+      }
+      a{
+        text-decoration: none;
+        color: #fff;
+        background: #61290D;
+        width: 50px;
+        height: 20px;
+        line-height: 20px;
+        display: block; 
+        border-radius: 12px;
+      }
+    </style>
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="/javascripts/reload-client.js"></script>
@@ -14,8 +57,10 @@
   </head>
   <body>
   
-    <h2>FROG Annual Report</h2>
-    <a class="bookmarklet" href="javascript: (function(){if(location.href.indexOf('https://planner.frogdesign.com/timesheets') != -1){alert('here');}else{alert('not')}}());">@ .. @</a>
-
+    <h1>Frog Annual Report</h1>
+    <a class="bookmarklet" href="javascript: (function(){if(location.href.indexOf('https://planner.frogdesign.com/timesheets') != -1){alert('here');}else{alert('not')}}());">@..@</a>
+    <h3 class='ascii-art'>. - ( ___ ) - .</h3>
+    <h3 class='ascii-art'>_<<span class='body'></span>>_</h3>
+    <h3 class='ascii-art'>\/<span class='foot'></span>\/</h3>
   </body>
 </html>
