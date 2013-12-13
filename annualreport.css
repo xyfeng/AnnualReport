@@ -33,7 +33,7 @@
 	padding: 0;
 }
 .ar-pro-hours span{
-	font-family: 'OpenSans-CondensedLight', Arial;
+	font-family: 'Open Sans Condensed', Arial;
 	font-size: 50px;
 	line-height: 60px;
 	vertical-align: baseline;
@@ -59,7 +59,7 @@
 	padding: 0;
 }
 .ar-title{
-	font-family: 'OpenSans-CondensedLight', Arial;
+	font-family: 'Open Sans Condensed', Arial;
 	font-size: 60px;
 	font-style: normal;
 	font-weight: 300;
@@ -76,6 +76,7 @@
 	background-color:#f2eee9;
 	z-index: 5000;
 	font-family: 'Open Sans', Arial;
+	overflow: scroll;
 }
 
 #ar_content{
@@ -83,7 +84,6 @@
 	height: 100%;
 	position:relative;
 	margin: 0 auto 0 auto;
-	overflow: scroll;
 }
 
 #ar_loader{
@@ -107,8 +107,11 @@
 	margin-bottom: 20px;
 	width: 800px;
 	clear: both;
-	padding: 120px 64px 0 0;
+	padding: 120px 64px 20px 0;
 	font-size: 12px;
+}
+#ar_credits p{
+	margin:0;
 }
 #ar_credits a, #ar_credits a:hover{
 	color:#61290D;
