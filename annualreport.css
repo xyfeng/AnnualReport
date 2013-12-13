@@ -105,10 +105,10 @@
 	font-family: 'Lekton', sans-serif;
 	text-align: center;
 	margin-bottom: 20px;
-	margin-right: 64px;
 	width: 800px;
 	clear: both;
-	padding: 120px 0 0 0;
+	padding: 120px 64px 0 0;
+	font-size: 12px;
 }
 #ar_credits a, #ar_credits a:hover{
 	color:#61290D;

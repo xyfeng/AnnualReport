@@ -17,11 +17,21 @@
       }
       h1{
         font-family: 'Lekton', sans-serif;
-        font-size: 12px;
-        line-height: 14px;
+        font-size: 21px;
+        line-height: 24px;
         border-bottom: 1px solid #aaa;
-        width: 120px;
+        width: 200px;
         margin: 60px auto 60px auto;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      h2{
+        font-family: 'Lekton', sans-serif;
+        font-size: 15px;
+        line-height: 18px;
+        border-bottom: 1px dotted #aaa;
+        width: 240px;
+        margin: 120px auto 60px auto;
         text-align: center;
       }
       h3, a{
@@ -31,13 +41,17 @@
         margin: 0 auto 0 auto;
         text-align: center;
       }
+      h2 a {
+        text-decoration: none;
+        color: #61290D;
+      }
       span.body{
         padding: 0 25px 0 0;
       }
       span.foot{
         padding: 0 30px 0 0;
       }
-      a{
+      a.bookmarklet{
         text-decoration: none;
         color: #fff;
         background: #61290D;
@@ -46,6 +60,15 @@
         line-height: 20px;
         display: block; 
         border-radius: 12px;
+      }
+      img {
+        margin: 0 0 60px 0;
+      }
+      #ar_credits p, #ar_credits a{
+        font-family: 'Lekton', sans-serif;
+        color: #61290D;
+        font-size: 12px;
+        text-align: center;
       }
     </style>
 
@@ -58,9 +81,21 @@
   <body>
   
     <h1>Frog Annual Report</h1>
-    <a class="bookmarklet" href="javascript: (function(){if(location.href.indexOf('https://planner.frogdesign.com/timesheets') != -1){alert('here');}else{alert('not')}}());">@..@</a>
+    <a class="bookmarklet" href="javascript: (function(){if(location.href.indexOf('https://planner.frogdesign.com/timesheets') != -1){if(!($ = window.jQuery)){ script = document.createElement('script'); script.src = 'http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'; script.onload=releasetheKraken; document.body.appendChild(script);}else{releasetheKraken();}function releasetheKraken(){document.body.appendChild(document.createElement('script')).src='https://dl.dropboxusercontent.com/u/11819416/frog/annualreport.js';} }})();">@..@</a>
     <h3 class='ascii-art'>. - ( ___ ) - .</h3>
     <h3 class='ascii-art'>_<<span class='body'></span>>_</h3>
     <h3 class='ascii-art'>\/<span class='foot'></span>\/</h3>
+    <h2><strong>STEP 1</strong><br />drag the link to bookmark bar</h2>
+    <img src='tutorial1.gif' width="600" height="332" />
+    <h2><strong>STEP 2</strong><br />go to frog timesheet url</h2>
+    <img src='tutorial2.gif' width="600" height="330" />
+    <h2><strong>STEP 3</strong><br />click on the bookmarklet</h2>
+    <img src='tutorial3.gif' width="600" height="380" />
+    <h2>Loader by <a href="http://www.behance.net/gallery/CCF-2013/11412425" target="_blank">Valentin Peslerbe</h2>
+    <img src='loader.gif' width="600" height="400" />
+
+    <div id="ar_credits">
+        <p><a href="" target="_blank">Code</a> crafted by <a href="xystudio.cc" target="_blank">XY FENG</a></p>
+    </div>
   </body>
 </html>
