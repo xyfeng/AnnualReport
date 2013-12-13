@@ -231,12 +231,13 @@ function showOverlay()
 	$('#ar_overlay').width(0).height(docHeight).animate({
 		width:docWidth,
 	}, 600, function(){
-		$('#ar_loader').fadeIn();
+		$('#ar_loader').fadeIn(300,function(){
+			for(var i = startPage; i < startPage + pageCount; i ++)
+			{
+				getLinksFromPage(i);
+			}
+		});
 		// loadContent();
-		for(var i = startPage; i < startPage + pageCount; i ++)
-		{
-			getLinksFromPage(i);
-		}
 	});
 }
 
