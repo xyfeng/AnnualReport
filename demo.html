@@ -10,24 +10,23 @@
     <link rel="shortcut icon" href="favicon.icn" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <script type="text/javascript">
-		function addHover()
-		{
-			$('.ar-pro-hours').hover(
-				function() {
-					// console.log('in');
-					var hours = parseInt($(this).data('hours'));
-					var days = (hours/8.0).toFixed(1);
-					$(this).html(days+'<span>days</span>');
-				}, function() {
-					var hours = parseInt($(this).data('hours'));
-					$(this).html(hours+'<span>hrs</span>');
-					// console.log('out');
-				}
-			);
-		}
-		$( document ).ready(function() {
-			addHover();
-		});
+    function addHover() {
+        $('.ar-pro-hours').hover(
+            function() {
+                // console.log('in');
+                var hours = parseInt($(this).data('hours'));
+                var days = (hours / 8.0).toFixed(1);
+                $(this).html(days + '<span>days</span>');
+            }, function() {
+                var hours = parseInt($(this).data('hours'));
+                $(this).html(hours + '<span>hrs</span>');
+                // console.log('out');
+            }
+        );
+    }
+    $(document).ready(function() {
+        addHover();
+    });
     </script>
 </head>
 
@@ -39,14 +38,20 @@
                 <div class="ar-title">XY FENG</div>
                 <div id="ar_projects">
                     <div class="ar-project">
-                        <div class="ar-pro-name">CLIENT – PROJECT NAME</div>
-                        <div class="ar-pro-hours" data-hours="120">120
+                        <div class="ar-pro-name">Client Name – Project Name</div>
+                        <div class="ar-pro-hours" data-hours="1083">1083
                             <span>hrs</span>
                         </div>
-                        <div class="ar-pro-planned">100 HOURS PLANNED</div>
+                        <div class="ar-pro-planned">1044 HOURS PLANNED</div>
                     </div>
                     <div class="ar-project">
-                        <div class="ar-pro-name">OBSERVED HOLIDAYS</div>
+                        <div class="ar-pro-name">INTERNAL LEARNING &amp; DEVELOPMENT</div>
+                        <div class="ar-pro-hours" data-hours="140">140
+                            <span>hrs</span>
+                        </div>
+                    </div>
+                    <div class="ar-project">
+                        <div class="ar-pro-name">FROG OBSERVED HOLIDAYS</div>
                         <div class="ar-pro-hours" data-hours="72">72
                             <span>hrs</span>
                         </div>
@@ -55,12 +60,6 @@
                     <div class="ar-project">
                         <div class="ar-pro-name">EMPLOYEE EDUCATION/CONF.</div>
                         <div class="ar-pro-hours" data-hours="8">8
-                            <span>hrs</span>
-                        </div>
-                    </div>
-                    <div class="ar-project">
-                        <div class="ar-pro-name">INTERNAL LEARNING &amp; DEVELOPMENT</div>
-                        <div class="ar-pro-hours" data-hours="140">140
                             <span>hrs</span>
                         </div>
                     </div>
@@ -77,8 +76,59 @@
                         </div>
                     </div>
                     <div class="ar-project">
+                        <div class="ar-pro-name">Client Name – Project Name</div>
+                        <div class="ar-pro-hours" data-hours="270">270
+                            <span>hrs</span>
+                        </div>
+                    </div>
+                    <div class="ar-project">
                         <div class="ar-pro-name">VACATION DAY (US)</div>
                         <div class="ar-pro-hours" data-hours="72">72
+                            <span>hrs</span>
+                        </div>
+                    </div>
+                    <div class="ar-project">
+                        <div class="ar-pro-name">Client Name – Project Name</div>
+                        <div class="ar-pro-hours" data-hours="378">378
+                            <span>hrs</span>
+                        </div>
+                        <div class="ar-pro-planned">192 HOURS PLANNED</div>
+                    </div>
+                    <div class="ar-project">
+                        <div class="ar-pro-name">Client Name – Project Name</div>
+                        <div class="ar-pro-hours" data-hours="8">8
+                            <span>hrs</span>
+                        </div>
+                        <div class="ar-pro-planned">8 HOURS PLANNED</div>
+                    </div>
+                    <div class="ar-project">
+                        <div class="ar-pro-name">Client Name – Project Name</div>
+                        <div class="ar-pro-hours" data-hours="16">16
+                            <span>hrs</span>
+                        </div>
+                        <div class="ar-pro-planned">8 HOURS PLANNED</div>
+                    </div>
+                    <div class="ar-project">
+                        <div class="ar-pro-name">Client Name – Project Name</div>
+                        <div class="ar-pro-hours" data-hours="16">16
+                            <span>hrs</span>
+                        </div>
+                    </div>
+                    <div class="ar-project">
+                        <div class="ar-pro-name">Client Name – Project Name</div>
+                        <div class="ar-pro-hours" data-hours="32">32
+                            <span>hrs</span>
+                        </div>
+                    </div>
+                    <div class="ar-project">
+                        <div class="ar-pro-name">Client Name – Project Name</div>
+                        <div class="ar-pro-hours" data-hours="16">16
+                            <span>hrs</span>
+                        </div>
+                    </div>
+                    <div class="ar-project">
+                        <div class="ar-pro-name">Client Name – Project Name</div>
+                        <div class="ar-pro-hours" data-hours="28">28
                             <span>hrs</span>
                         </div>
                     </div>
@@ -91,57 +141,6 @@
                     <div class="ar-project">
                         <div class="ar-pro-name">EVENT RELATED TIME</div>
                         <div class="ar-pro-hours" data-hours="2">2
-                            <span>hrs</span>
-                        </div>
-                    </div>
-                    <div class="ar-project">
-                        <div class="ar-pro-name">CLIENT – PROJECT NAME</div>
-                        <div class="ar-pro-hours" data-hours="8">8
-                            <span>hrs</span>
-                        </div>
-                        <div class="ar-pro-planned">8 HOURS PLANNED</div>
-                    </div>
-                    <div class="ar-project">
-                        <div class="ar-pro-name">CLIENT – PROJECT NAME</div>
-                        <div class="ar-pro-hours" data-hours="378">378
-                            <span>hrs</span>
-                        </div>
-                        <div class="ar-pro-planned">192 HOURS PLANNED</div>
-                    </div>
-                    <div class="ar-project">
-                        <div class="ar-pro-name">CLIENT – PROJECT NAME</div>
-                        <div class="ar-pro-hours" data-hours="16">16
-                            <span>hrs</span>
-                        </div>
-                        <div class="ar-pro-planned">8 HOURS PLANNED</div>
-                    </div>
-                    <div class="ar-project">
-                        <div class="ar-pro-name">CLIENT – PROJECT NAME</div>
-                        <div class="ar-pro-hours" data-hours="16">16
-                            <span>hrs</span>
-                        </div>
-                    </div>
-                    <div class="ar-project">
-                        <div class="ar-pro-name">CLIENT – PROJECT NAME</div>
-                        <div class="ar-pro-hours" data-hours="32">32
-                            <span>hrs</span>
-                        </div>
-                    </div>
-                    <div class="ar-project">
-                        <div class="ar-pro-name">CLIENT – PROJECT NAME</div>
-                        <div class="ar-pro-hours" data-hours="16">16
-                            <span>hrs</span>
-                        </div>
-                    </div>
-                    <div class="ar-project">
-                        <div class="ar-pro-name">CLIENT – PROJECT NAME</div>
-                        <div class="ar-pro-hours" data-hours="270">270
-                            <span>hrs</span>
-                        </div>
-                    </div>
-                    <div class="ar-project">
-                        <div class="ar-pro-name">CLIENT – PROJECT NAME</div>
-                        <div class="ar-pro-hours" data-hours="28">28
                             <span>hrs</span>
                         </div>
                     </div>
