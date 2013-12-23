@@ -1,6 +1,8 @@
 *{
 	color: #333;
 	cursor: default;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
 }
 ::-webkit-scrollbar{
     display: none; 
